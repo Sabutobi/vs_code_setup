@@ -1,0 +1,8 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "editor.autoIndent": true,
+    "editor.formatOnSave": true,
+    "editor.renderIndentGuides": true,
+    "editor.fontSize": 12,
+    "git.autofetch": false
+}

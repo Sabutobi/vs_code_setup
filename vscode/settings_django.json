@@ -1,0 +1,16 @@
+{
+    "python.linting.enabled": true,
+    "python.linting.lintOnSave": false,
+    "python.linting.pylintEnabled": true,
+    "editor.formatOnSave": true,
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint_django"
+    ],
+    "python.linting.pylintPath": "pylint",
+    "python.linting.pep8Enabled": true,
+    "html.format.unformatted": "form",
+    "html.format.enable": false,
+    "html.format.indentInnerHtml": false,
+    "html.format.indentHandlebars": false
+}

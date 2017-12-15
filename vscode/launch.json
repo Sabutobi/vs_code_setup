@@ -1,0 +1,24 @@
+{
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch Chrome",
+            "url": "http://localhost:8000",
+            "webRoot": "${workspaceRoot}/front_end/"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "program": "${workspaceFolder}/back_end/bin/www",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Attach (Remote Debug)",
+            "type": "python",
+            "request": "attach",
+            "localRoot": "${workspaceRoot}",
+            "remoteRoot": "/code/",
+            "port": 3500,
+            "secret": "my_secret",
+            "host": "0.0.0.0"
+        }

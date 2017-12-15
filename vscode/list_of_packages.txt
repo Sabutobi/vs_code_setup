@@ -1,0 +1,8 @@
+https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome
+https://marketplace.visualstudio.com/items?itemName=bibhasdn.django-html
+https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker
+https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame
+https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
+https://marketplace.visualstudio.com/items?itemName=ms-python.python
+https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons
