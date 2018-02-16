@@ -6,6 +6,46 @@
             "webRoot": "${workspaceRoot}/front_end/"
         },
         {
+            "name": "Flask_redirect_venv",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "/absolute/path/to/project_venv/bin/python3.6",
+            "program": "${workspaceFolder}/manage.py",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "envFile": "${workspaceFolder}/.env",
+            "console": "integratedTerminal",
+            "args": [
+                "runserver",
+                "--port",
+                "someport",
+                "--host",
+                "some.host.to.catch"
+            ],
+            "debugOptions": [
+                "RedirectOutput"
+            ]
+        },
+        {
+            "name": "Sanic_framework_launch",
+            "type": "python",
+            "request": "launch",
+            "stopOnEntry": false,
+            "pythonPath": "${workspaceFolder}/venv/bin/python3.6",
+            "program": "${workspaceFolder}/manage.py",
+            "cwd": "${workspaceFolder}",
+            "env": {},
+            "envFile": "${workspaceFolder}/.env",
+            "console": "integratedTerminal",
+            "args": [
+                "runserver"
+            ],
+            "debugOptions": [
+                "RedirectOutput"
+            ]
+        },
+        {
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
@@ -21,4 +61,4 @@
             "port": 3500,
             "secret": "my_secret",
             "host": "0.0.0.0"
-        }
+}
