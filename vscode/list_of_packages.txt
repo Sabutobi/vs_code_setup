@@ -6,3 +6,6 @@ https://marketplace.visualstudio.com/items?itemName=waderyan.gitblame
 https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense
 https://marketplace.visualstudio.com/items?itemName=ms-python.python
 https://marketplace.visualstudio.com/items?itemName=robertohuertasm.vscode-icons
+
+https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
+https://marketplace.visualstudio.com/items?itemName=humao.rest-client
