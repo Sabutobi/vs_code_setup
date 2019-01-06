@@ -20,6 +20,7 @@
             ]
         },
         {
+            // Launch this option and choose vscode python process
             "name": "GDB Attach proc 0",
             "type": "cppdbg",
             "request": "attach",
