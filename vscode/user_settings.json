@@ -1,8 +1,16 @@
 {
+    "terminal.integrated.rendererType": "dom",
     "workbench.iconTheme": "vscode-icons",
     "editor.autoIndent": true,
     "editor.formatOnSave": true,
     "editor.renderIndentGuides": true,
     "editor.fontSize": 12,
-    "git.autofetch": false
+    "git.autofetch": false,
+    "editor.renderWhitespace": "boundary",
+    "files.trimTrailingWhitespace": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "editor.cursorStyle": "block-outline",
+    "diffEditor.ignoreTrimWhitespace": true
 }
