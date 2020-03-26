@@ -5,6 +5,10 @@
     "editor.formatOnSave": true,
     "editor.renderIndentGuides": true,
     "editor.fontSize": 12,
+    "editor.rulers": [
+        80,
+        120
+    ],
     "git.autofetch": false,
     "editor.renderWhitespace": "boundary",
     "files.trimTrailingWhitespace": true,
